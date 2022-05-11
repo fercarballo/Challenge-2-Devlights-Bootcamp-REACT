@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 const Landing = () => {
   return (
     <>
-      <main className="max-w-md mx-auto bg-white shadow-md overflow-hidden md:max-w-full ">
+      <main className="max-w-md mx-auto bg-white shadow-md overflow-hidden  md:max-w-full dark:bg-gray-800">
         <Header />
         <div className="flex flex-wrap justify-center">
           <div className="bg-accent-dark bg-cover">

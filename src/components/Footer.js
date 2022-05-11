@@ -17,11 +17,11 @@ const Footer = () => {
             Devlights Bootcamp
           </span>
         </a>
-        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-white">
           <li>
             <a
               href="https://www.linkedin.com/in/fercarballo/"
-              className="mr-4 hover:underline md:mr-6 "
+              className="mr-4 hover:underline md:mr-6 cyan-500"
             >
               Linkedin
             </a>

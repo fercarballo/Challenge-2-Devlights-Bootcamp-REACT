@@ -8,13 +8,13 @@ const Header = () => {
     navigate("/login");
   }
   return (
-    <header>
-      <div className="text-center bg-gray-50 text-gray-800 py-12 px-4">
+    <header className="dark:bg-gray-800">
+      <div className="text-center bg-gray-50 py-12 px-4 dark:bg-gray-800 text-cyan-500 dark:text-white">
         <h1 className="text-5xl font-bold mt-0 mb-5">Devlights Bootcamp</h1>
         <h3 className="text-3xl font-bold mb-6">
           Challenge #2 ReactJS Pokémon App
         </h3>
-        <h5 className="font-medium leading-relaxed text-2xl mt-0 mb-8 text-teal-600">
+        <h5 className="font-medium leading-relaxed text-2xl mt-0 mb-8 text-cyan-500 dark:text-white">
           Se trata de una aplicación en la cual consumimos la API de PokéApi
           para presentar un listado de los pokémones y sus características
         </h5>
