@@ -3,7 +3,7 @@ import Pokemon from "../../components/Pokemon";
 
 const List = ({ onLogout }) => {
   return (
-    <div className="flex flex-col-reverse dark:bg-gray-800">
+    <div className="flex flex-col-reverse dark:bg-gray-800 dark:text-white">
       <div className="flex justify-center">
         <Pokemon />
       </div>

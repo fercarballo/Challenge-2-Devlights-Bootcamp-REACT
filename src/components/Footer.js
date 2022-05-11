@@ -21,7 +21,7 @@ const Footer = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/fercarballo/"
-              className="mr-4 hover:underline md:mr-6 cyan-500"
+              className="mr-4 hover:underline md:mr-6"
             >
               Linkedin
             </a>

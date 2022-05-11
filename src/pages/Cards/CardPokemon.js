@@ -12,7 +12,7 @@ export const CardPokemon = ({ url }) => {
         <h1>Loading</h1>
       ) : (
         <div
-          className="max-w-lg max-h-md "
+          className="max-w-lg max-h-md dark:text-white"
           data-bs-toggle="modal"
           data-bs-target={`#id${data.id}`}
         >
