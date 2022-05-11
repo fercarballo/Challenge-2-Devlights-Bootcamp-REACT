@@ -7,12 +7,13 @@ export const CardPokemon = ({ url }) => {
   const { loading, data } = state;
 
   return (
-    <div className="flex justify-center p-2 max-w-lg max-h-md cursor-pointer ">
+    <div className="flex justify-center p-2 max-w-lg max-h-md cursor-pointer dark:text-white">
       {loading ? (
         <h1>Loading</h1>
       ) : (
         <div
-          className="max-w-lg max-h-md dark:text-white"
+          className="max-w-lg max-h-md /* It's a Tailwind CSS class. */
+          dark:text-white"
           data-bs-toggle="modal"
           data-bs-target={`#id${data.id}`}
         >
@@ -24,10 +25,10 @@ export const CardPokemon = ({ url }) => {
             />
 
             <div className="p-6">
-              <h5 className="text-gray-900 text-xl font-medium mb-1">
+              <h5 className="text-gray-900 text-xl font-medium mb-1 dark:text-white">
                 {data.forms[0].name}
               </h5>
-              <p className="text-gray-700 text-base mb-2">ID: {data.id}</p>
+              <p className="text-gray-700 text-base mb-2 dark:text-white">ID: {data.id}</p>
             </div>
           </div>
           <Modal

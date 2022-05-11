@@ -12,7 +12,7 @@ export const Modal = ({
 }) => {
   return (
     <div
-      className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+      className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto dark:text-white"
       id={id}
       tabindex="-1"
       aria-labelledby="exampleModalCenteredScrollable"
@@ -21,7 +21,7 @@ export const Modal = ({
     >
       <div
         id={id}
-        className="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none"
+        className="modal-dialog modal-dialog-centered modal-dialog-scrollable relative w-auto pointer-events-none dark:text-white"
       >
         <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-orange-400 bg-clip-padding rounded-md outline-none text-current">
           <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-orange-800 rounded-t-md"></div>
@@ -29,7 +29,7 @@ export const Modal = ({
           <img src="" alt="" />
           <p className="flex flex-col items-center bg-gray-500  border shadow-md md:flex-row md:max-w-xl hover:bg-gray-500 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-slate-900">
             <img
-              className="object-fill h-80 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg mt-3 mb-3"
+              className="object-fill h-80 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg mt-3 mb-3 m-5"
               src={img}
               alt="pokemon"
             />
