@@ -6,6 +6,8 @@ const Footer = () => {
       <div className="sm:flex sm:items-center sm:justify-between">
         <a
           href="https://devlights.com/bootcamp"
+          target="_blank"
+          rel="noreferrer noopener"
           class="flex items-center mb-4 sm:mb-0"
         >
           <img
@@ -21,6 +23,8 @@ const Footer = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/fercarballo/"
+              target="_blank"
+              rel="noreferrer noopener"
               className="mr-4 hover:underline md:mr-6"
             >
               Linkedin
@@ -29,6 +33,8 @@ const Footer = () => {
           <li>
             <a
               href="https://github.com/fercarballo"
+              target="_blank"
+              rel="noreferrer noopener"
               className="mr-4 hover:underline md:mr-6"
             >
               GitHub
@@ -37,6 +43,8 @@ const Footer = () => {
           <li>
             <a
               href="https://pokeapi.co/"
+              target="_blank"
+              rel="noreferrer noopener"
               className="mr-4 hover:underline md:mr-6 "
             >
               PokéAPI
@@ -47,7 +55,12 @@ const Footer = () => {
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © 2022{" "}
-        <a href="https://devlights.com/bootcamp" class="hover:underline">
+        <a
+          href="https://devlights.com/bootcamp"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="hover:underline"
+        >
           Gracias por pasarte 🙂
         </a>
         . Challenge React.

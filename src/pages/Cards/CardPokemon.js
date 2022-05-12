@@ -28,7 +28,9 @@ export const CardPokemon = ({ url }) => {
               <h5 className="text-gray-900 text-xl font-medium mb-1 dark:text-white">
                 {data.forms[0].name}
               </h5>
-              <p className="text-gray-700 text-base mb-2 dark:text-white">ID: {data.id}</p>
+              <p className="text-gray-700 text-base mb-2 dark:text-white">
+                ID: {data.id}
+              </p>
             </div>
           </div>
           <Modal
