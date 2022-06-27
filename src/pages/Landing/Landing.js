@@ -12,7 +12,7 @@ const Landing = () => {
             <img
               src="https://images3.alphacoders.com/206/thumb-1920-206177.jpg"
               alt="..."
-              class="shadow rounded max-w-full h-auto align-middle border-none"
+              className="shadow rounded max-w-full h-auto align-middle border-none"
             />
           </div>
         </div>

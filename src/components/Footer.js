@@ -8,7 +8,7 @@ const Footer = () => {
           href="https://devlights.com/bootcamp"
           target="_blank"
           rel="noreferrer noopener"
-          class="flex items-center mb-4 sm:mb-0"
+          className="flex items-center mb-4 sm:mb-0"
         >
           <img
             className="mr-3 h-8"
@@ -59,7 +59,7 @@ const Footer = () => {
           href="https://devlights.com/bootcamp"
           target="_blank"
           rel="noreferrer noopener"
-          class="hover:underline"
+          className="hover:underline"
         >
           Gracias por pasarte 🙂
         </a>
